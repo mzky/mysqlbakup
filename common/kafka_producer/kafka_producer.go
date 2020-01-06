@@ -93,7 +93,7 @@ type Kafka_SJsonDeviceRamLog struct {
 }
 
 func GetUUID() string {
-	str_uuid := uuid.NewV4()
+	str_uuid, _ := uuid.NewV4()
 	return str_uuid.String()
 }
 func (self *Kafka_Producer) Kafka_InstertLog(data map[string]interface{}, Operation, Table string) (id string) {
