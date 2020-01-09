@@ -84,7 +84,7 @@ func destroy(m *module) {
 			}
 		}
 	}()
-	//log.Debug("%v", m)
+	log.Debug("%v", m)
 	m.mi.OnDestroy()
 }
 

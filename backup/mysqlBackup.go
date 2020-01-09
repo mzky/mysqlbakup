@@ -715,7 +715,6 @@ func (m *MySqlBackup) Import_GetLine() string {
 	m.currentBytes += int64(len(line))
 	m.pgb.Add64(int64(len(line)))
 	line = strings.TrimSpace(line)
-	log.Warn(line)
 	return line
 }
 func (m *MySqlBackup) Import_ProcessLine(line string) error {
