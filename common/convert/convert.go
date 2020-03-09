@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/log"
 )
 
 var defaultTime = time.Date(2006, 1, 2, 15, 4, 5, 0, time.Local)

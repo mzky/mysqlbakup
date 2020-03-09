@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"mysqlbakup/common/chanrpc"
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/chanrpc"
+	"github.com/mzky/mysqlbakup/common/log"
 )
 
 var ProfilePath = ""

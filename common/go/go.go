@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"sync"
 
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/log"
 )
 
 var LenStackBuf = 4096

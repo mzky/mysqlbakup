@@ -1,6 +1,6 @@
 package rslice
 
-import "mysqlbakup/common/convert"
+import "github.com/mzky/mysqlbakup/common/convert"
 
 func Join(data []int32, sep string) string {
 	ret := ""

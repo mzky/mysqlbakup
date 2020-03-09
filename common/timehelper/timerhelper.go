@@ -3,7 +3,7 @@ package timehelper
 import (
 	"time"
 
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/log"
 )
 
 func GetNowDateInt() int32 {

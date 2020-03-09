@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"mysqlbakup/common/db"
-	"mysqlbakup/common/log"
-	"mysqlbakup/infoObjects"
+	"github.com/mzky/mysqlbakup/common/db"
+	"github.com/mzky/mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/infoObjects"
 )
 
 type MySqlDatabase struct {

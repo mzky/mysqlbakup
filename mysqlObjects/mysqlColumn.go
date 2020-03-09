@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"strings"
 
-	"mysqlbakup/common/char"
-	"mysqlbakup/common/convert"
+	"github.com/mzky/mysqlbakup/common/char"
+	"github.com/mzky/mysqlbakup/common/convert"
 )
 
 type MySqlColumn struct {

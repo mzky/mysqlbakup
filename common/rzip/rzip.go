@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"mysqlbakup/common/progressbar"
-	"mysqlbakup/common/rpath"
+	"github.com/mzky/mysqlbakup/common/progressbar"
+	"github.com/mzky/mysqlbakup/common/rpath"
 )
 
 //带进度条的压缩

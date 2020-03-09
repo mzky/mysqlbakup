@@ -4,7 +4,7 @@ import (
 	"runtime"
 	"time"
 
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/log"
 )
 
 var LenStackBuf = 4096

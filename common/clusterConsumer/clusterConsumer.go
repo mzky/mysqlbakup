@@ -5,8 +5,8 @@ import (
 
 	"github.com/Shopify/sarama"
 	cluster "github.com/bsm/sarama-cluster"
-	"mysqlbakup/common/log"
-	"mysqlbakup/common/module"
+	"github.com/mzky/mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/module"
 )
 
 const ConsumerMsgEvent = "ConsumerMsgEvent"

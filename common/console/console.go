@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/log"
 )
 
 var CloseTag chan int32

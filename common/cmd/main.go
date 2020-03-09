@@ -1,6 +1,6 @@
 package main
 
-import "mysqlbakup/common/log"
+import "github.com/mzky/mysqlbakup/common/log"
 
 func main() {
 	log.Debug("aaaaaaaaa")

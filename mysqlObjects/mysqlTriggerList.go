@@ -3,8 +3,8 @@ package mysqlObjects
 import (
 	"database/sql"
 
-	"mysqlbakup/common/db"
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/db"
+	"github.com/mzky/mysqlbakup/common/log"
 )
 
 type MySqlTriggerList struct {

@@ -8,7 +8,7 @@ import (
 
 	"github.com/Shopify/sarama"
 	uuid "github.com/satori/go.uuid"
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/log"
 )
 
 type Kafka_Producer struct {

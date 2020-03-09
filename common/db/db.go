@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"time"
 
-	"mysqlbakup/common/convert"
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/convert"
+	"github.com/mzky/mysqlbakup/common/log"
 )
 
 type DataRow struct {

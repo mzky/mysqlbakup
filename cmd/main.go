@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"mysqlbakup/backup"
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/backup"
+	"github.com/mzky/mysqlbakup/common/log"
 
 	_ "github.com/go-sql-driver/mysql"
 )

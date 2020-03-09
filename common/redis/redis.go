@@ -5,8 +5,8 @@ import (
 	"time"
 
 	_redis "github.com/go-redis/redis"
-	"mysqlbakup/common/convert"
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/convert"
+	"github.com/mzky/mysqlbakup/common/log"
 )
 
 const RedisNil = "redis: nil"

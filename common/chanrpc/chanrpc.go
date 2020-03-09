@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/log"
 )
 
 const (

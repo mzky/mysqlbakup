@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"mysqlbakup/common/convert"
-	"mysqlbakup/common/db"
+	"github.com/mzky/mysqlbakup/common/convert"
+	"github.com/mzky/mysqlbakup/common/db"
 )
 
 type MySqlServer struct {

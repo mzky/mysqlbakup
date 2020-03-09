@@ -4,8 +4,8 @@ import (
 	"runtime"
 	"sync"
 
-	"mysqlbakup/common/chanrpc"
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/chanrpc"
+	"github.com/mzky/mysqlbakup/common/log"
 )
 
 var LenStackBuf = 4096

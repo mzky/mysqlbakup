@@ -4,8 +4,8 @@ import (
 	"os"
 	"os/signal"
 
-	"mysqlbakup/common/console"
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/console"
+	"github.com/mzky/mysqlbakup/common/log"
 )
 
 var (

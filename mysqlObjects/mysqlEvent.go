@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"mysqlbakup/common/db"
+	"github.com/mzky/mysqlbakup/common/db"
 )
 
 type MySqlEvent struct {

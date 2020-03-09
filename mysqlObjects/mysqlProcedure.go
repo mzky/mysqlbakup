@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"mysqlbakup/common/db"
+	"github.com/mzky/mysqlbakup/common/db"
 )
 
 type MySqlProcedure struct {

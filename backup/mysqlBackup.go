@@ -7,16 +7,17 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"mysqlbakup/common/convert"
-	"mysqlbakup/common/db"
-	"mysqlbakup/common/log"
-	"mysqlbakup/common/progressbar"
-	"mysqlbakup/infoObjects"
-	"mysqlbakup/mysqlObjects"
 	"os"
 	"reflect"
 	"strings"
 	"time"
+
+	"github.com/mzky/mysqlbakup/common/convert"
+	"github.com/mzky/mysqlbakup/common/db"
+	"github.com/mzky/mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/progressbar"
+	"github.com/mzky/mysqlbakup/infoObjects"
+	"github.com/mzky/mysqlbakup/mysqlObjects"
 )
 
 type ProcessEndType int32

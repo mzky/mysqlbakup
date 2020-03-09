@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/log"
 )
 
 //获取指定目录及所有子目录下的所有文件，可以匹配后缀过滤。

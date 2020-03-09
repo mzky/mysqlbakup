@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"time"
 
-	"mysqlbakup/common/db"
-	"mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/db"
+	"github.com/mzky/mysqlbakup/common/log"
 
 	_ "github.com/go-sql-driver/mysql"
 )

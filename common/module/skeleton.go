@@ -3,11 +3,11 @@ package module
 import (
 	"time"
 
-	"mysqlbakup/common/chanrpc"
-	"mysqlbakup/common/console"
-	g "mysqlbakup/common/go"
-	"mysqlbakup/common/log"
-	"mysqlbakup/common/timer"
+	"github.com/mzky/mysqlbakup/common/chanrpc"
+	"github.com/mzky/mysqlbakup/common/console"
+	g "github.com/mzky/mysqlbakup/common/go"
+	"github.com/mzky/mysqlbakup/common/log"
+	"github.com/mzky/mysqlbakup/common/timer"
 )
 
 type IEngine interface {

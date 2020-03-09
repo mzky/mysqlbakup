@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"database/sql"
 	"fmt"
-	"mysqlbakup/common/char"
-	"mysqlbakup/common/db"
+	"github.com/mzky/mysqlbakup/common/char"
+	"github.com/mzky/mysqlbakup/common/db"
 	"strings"
 )
 
