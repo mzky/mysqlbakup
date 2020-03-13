@@ -4,7 +4,7 @@ go 1.12
 
 require (
 	github.com/go-sql-driver/mysql v1.4.1
-	github.com/mzky/common v0.0.0-20190810091352-ac74c668c3bc
+	github.com/mzky/common
 )
 
-replace common => ../common
+replace github.com/mzky/common => ../common
