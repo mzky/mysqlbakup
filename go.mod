@@ -7,4 +7,3 @@ require (
 	github.com/mzky/common
 )
 
-replace github.com/mzky/common => ../common
