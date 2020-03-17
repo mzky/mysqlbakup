@@ -1,4 +1,4 @@
-module mysqlbakup
+module github.com/mzky/mysqlbakup
 
 go 1.12
 
