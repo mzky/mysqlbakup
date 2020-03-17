@@ -1,4 +1,4 @@
-module github.com/wudiliujie/common
+module github.com/mzky/common
 
 go 1.12
 
