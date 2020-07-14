@@ -1,4 +1,4 @@
-module github.com/wudiliujie/common
+module github.com/mzky/mysqlbakup/common
 
 go 1.12
 
